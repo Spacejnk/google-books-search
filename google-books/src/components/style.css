@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+    background-color: palegreen;
+    height: 70px;
+}
+
+.google {
+    padding: 10px;
+}
+.search-area {
+    margin-top: 5px;
+    
+}
+button {
+    font-weight: bold;
+    margin-left: 5px;
+    color: orange;
+    background-color: rgb(72, 76, 77);
+}
