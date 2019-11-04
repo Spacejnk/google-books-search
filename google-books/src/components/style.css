@@ -24,13 +24,32 @@ button {
 
 .card-container {
     width: 250px;
+    height: 320px;
     border: 1px solid rgba(0,0,0,.125);
-    margin: 0 auto;
+    margin: 10px;
+    margin-top: 10px;
     border-radius: 5px;
     overflow: hidden;
+    float:left;
 }
 
 .desc {
-    height: 130px;
+    height: 100px;
     padding: 10px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.author {
+    font-size: 15px;
+}
+
+.publish {
+    font-size: 15px;
+}
+
+.sort {
+    margin-left: 5px;
 }

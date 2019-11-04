@@ -4,11 +4,11 @@ import './style.css'
 const BookCard = (props) => {
     return(
        <div className='card-container'>
-           <img src={props.image} alt='' />
+           <img className='image' src={props.image} alt='' />
            <div className='desc'>
-                <h2>{props.title}</h2>
-                <h3>{props.author}</h3>
-                <p>{props.published}</p>
+                <h2 className='title'>{props.title}</h2>
+                <h3 className='author'>Author: {props.author}</h3>
+                <p className='publish'>Published Data: {props.published === '0000' ? 'Not available' : props.published.substring(0,4)}</p>
            </div>
        </div>
     )
